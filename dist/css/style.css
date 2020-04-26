@@ -1,0 +1,290 @@
+* { transition: all .4s ease; }
+input, textarea, button { outline: none !important; }
+.pr-70 { padding-right: 70px; }
+.pl-70 { padding-left: 70px; }
+.italic-description {
+    color: #898888;
+    font-style: italic;
+    font-family: "Merriweather - Light Italic";
+    font-size: 16px;
+    font-weight: 400;
+}
+.white-button {
+    margin-top: 20px;
+    width: 188px;
+    height: 47px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.white-button:hover { background-color: #eeeded; }
+.black-button {
+    height: 52px;
+    background-color: #161616;
+    border: 1px solid #161616;
+    color: #fefefe;
+    font-size: 17px;
+    letter-spacing: 0.34px;
+}
+.black-button:hover {
+    background-color: #2f2f2f;
+}
+.heading-container { 
+    margin-bottom: 80px;
+    text-align: center; 
+}
+.heading {
+    text-align: center;
+    color: #1d1e1f;
+    font-family: "Helvetica Neue LT Pro - Lt";
+    font-weight: 400;
+    letter-spacing: 0.88px;
+}
+/* Top Nav */
+#top-nav { 
+    padding-bottom: 0;
+    padding-top: 0;
+}
+#top-nav .nav-link {
+    padding: 0 25px;
+    line-height: 50px;
+    font-family: Roboto;
+    color: #989696;
+    font-size: 13px;
+    letter-spacing: 0.52px;
+}
+#top-nav .active,
+#top-nav .nav-link:hover { color: #010101; }
+#top-nav_toggler {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#top-nav_toggler_img {
+    width: 35px;
+    height: 34px;
+}
+/* Logo */
+#top-nav_logo_link { padding: 0; }
+#top-nav_logo_img {
+    width: 55px;
+    height: 54px;
+}
+
+/* Slider */
+#slider-container .carousel-inner { letter-spacing: 0.48; }
+#slider-container .carousel-indicators { bottom: 70px; }
+#slider-container .carousel-indicators > li {
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #b0b0b0;
+}
+#slider-container .carousel-indicators > li.active,
+#slider-container .carousel-indicators > li:hover { opacity: 0.20; }
+#slider-container .carousel-item { 
+    height: 40vh;
+    min-height: 500px; 
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d; 
+    text-align: center;
+}
+#slider-container .carousel-caption { 
+    top: 40%;
+    bottom: initial; 
+    transform: translateY(-40%);
+}
+#slider-container .slide-heading { font-size: 44px; }
+
+#team-heading,
+#services-heading,
+#contact-us_heading { font-size: 34px; }
+
+/* Slider Arrow Controls */
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: #010101;
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #010101;
+}
+
+/* Services */
+#about-us {
+    padding-top: 140px; 
+    padding-bottom: 240px;
+    background-image: url('../images/services_background.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+#about-us_container { margin: 0 auto; }
+.about-us_heading { 
+    color: #fefefe;
+    font-weight: 400;
+}
+.about-us_description {
+    color: #b7b7b7;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+}
+
+/* Team */
+#team,
+#contact-us {
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+#team-container {
+    min-height: 300px;
+}
+#team-list,
+#services-list,
+#contact-list { 
+    margin-bottom: 20px;
+    text-align: center; 
+    font-family: "Helvetica Neue LT Pro - Roman";
+}
+.list_image img {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: auto;
+}
+.team-list_fullname,
+.services-list_title {
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.team-list_job,
+.services-list_description,
+.contact-list_title {
+    color: #b3b3b3;
+    font-size: 13px;
+    letter-spacing: 0.26px;
+}
+.team-list_socials { padding-top: 15px; }
+.team-list_socials a { padding: 0 6px; }
+.team-list_socials img {
+    width: 21px;
+    height: 18px;
+}
+.team-list_socials img:hover { opacity: 0.6; }
+
+#services,
+.left-triangle-container,
+.right-triangle-container { background-color: #181818; }
+
+#services-heading,
+.services-list_title { color: #ffffff; }
+#services-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.services-list_title { padding-top: 23px; }
+.services-list_description { 
+    padding-top: 15px;
+    color: #383838; 
+}
+
+/* Blog */
+#blog-container {
+    padding-top: 400px;
+    padding-bottom: 200px;
+    background-image: url('../images/posts_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Contact Us */
+.contact-list_title { padding-top: 10px; }
+#contact-form_container { padding-top: 150px; }
+.form-input {
+    display: block;
+    width: 100%;
+    height: 49px;
+    padding: 0 17px;
+    margin-bottom: 20px;
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Helvetica Neue LT Pro - Lt";
+    color: #898888;
+    letter-spacing: 0.3px;
+}
+.form-input:focus {
+    border-color: #161616;
+    box-shadow: 0 0 2px #363636;
+}
+textarea.form-input{
+    resize: none;
+    min-height: 200px;
+    padding: 17px;
+    text-align: left;
+}
+#contact-form .black-button { width: 100%; }
+
+/* Footer */
+#footer { padding-top: 70px; }
+#copyright-container {
+    padding: 30px 0;
+    text-align: center;
+    color: #3b3b3b;
+    font-family: "Helvetica Neue LT Pro - Roman";
+    font-size: 14px;
+    letter-spacing: 0.28px;
+}
+
+/* TRIANGLE */
+.left-triangle-container { 
+    height: 180px; 
+    overflow: hidden;
+}
+.left-triangle {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 100vw solid #ffffff;
+    border-bottom: 130px solid transparent;
+}
+.right-triangle-container {  
+    overflow: hidden;
+    position: relative; 
+}
+.right-triangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 130px solid transparent;
+    border-right: 100vw solid #ffffff;
+    border-bottom: 0px solid transparent;
+}
+
+
+/* @media Rules */
+@media screen and (max-width: 991px) {
+
+    /* Top Nav */
+    #top-nav_container { padding: 0; }
+    #top-nav { padding-left: 25px; }
+    #top-nav { background: rgba(0,0,0,0.07); }
+    #top-nav_logo_link { display: none;}
+    #top-nav .nav-link { padding-left: 11px; }
+
+    /* Slider */
+    #slider-container .slide-heading { font-size: 30px; }
+}

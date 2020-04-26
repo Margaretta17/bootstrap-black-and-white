@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Black and White">
+    <meta name="keywords" content="Black and White, Design, Landing Page, Responsive Page, HTML, CSS, Bootstrap">
+    <title>B&W</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">    
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- TOP NAV Container -->
+            <div id="top-nav_container" class="col-md-12">
+                <!-- Nav -->
+                <nav id="top-nav" class="nav navbar navbar-expand-lg">
+                    <!-- top nav toggler button -->
+                    <button id="top-nav_toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <img id="top-nav_toggler_img" src="images/logo.png" alt="">
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#team">Team</a>
+                
+                        <!-- Logo -->
+                        <a id="top-nav_logo_link" class="nav-link" href="#home">
+                            <img id="top-nav_logo_img" src="images/logo.png" alt="">
+                        </a>
+
+                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </div>
+                </nav> <!-- /Nav -->
+    
+            </div> <!-- /TOP NAV Container -->
+
+            <!-- SLIDER Container -->
+            <div id="slider-container" class="col-md-12">
+                <div id="carousel-captions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators flex-column d-none d-md-inline-flex">
+                      <li data-target="#carousel-captions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-captions" data-slide-to="1"></li>
+                      <li data-target="#carousel-captions" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-caption">
+                                <h1 class="heading slide-heading">We build it with passion</h1>
+                                <span class="d-block italic-description">Just to be clear, we do this for fun not for you, just kidding.</span>
+                                <button class="white-button">Read More</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h1 class="heading slide-heading">It is a long established</h1>
+                                <span class="slide-after-heading">Just to be clear, we do this for fun not for you, just kidding.</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <h1 class="heading slide-heading">Contrary to popular belief</h1>
+                                <span class="slide-after-heading">Just to be clear, we do this for fun not for you, just kidding.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arrow Controls -->
+                <a class="carousel-control-prev d-md-none d-sm-flex" href="#carousel-captions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next d-md-none d-sm-flex" href="#carousel-captions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> <!-- /#carousel-captions -->
+        </div> <!-- /SLIDER Container-->
+
+        <div id="about-us" class="row">
+
+            <!-- ABOUT US Container -->
+            <div id="about-us_container" class="col-md-8">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6 pr-70">
+                        <h1 class="about-us_heading text-right">2011</h1>
+                        <p class="about-us_description">
+                            Lorem ipsum dolor sit amet, consectetur adipiselit. 
+                            Vivamus varius nec diam vitae hendrerit bigus mit.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6"></div>
+                    <div class="col-md-6 col-sm-6 col-6 pl-70">
+                        <h1 class="about-us_heading">2012</h1>
+                        <p class="about-us_description">
+                            Lorem ipsum dolor sit amet, consectetur adipiselit. 
+                            Vivamus varius nec diam vitae hendrerit bigus mit.
+                            Begitus vit urna nulla.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6 pr-70">
+                        <h1 class="about-us_heading text-right">2013</h1>
+                        <p class="about-us_description">
+                            Sed at auctor sem, nec tincidunt elit. 
+                            Pellentesque enim turpis, porttitor ac orci in, ultrices efficitur nisl. 
+                            Ut odio libero, sodales a tellus eleifend, suscipit dapibus mi.
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6"></div>
+                </div> 
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6"></div>
+                    <div class="col-md-6 col-sm-6 col-6 pl-70">
+                        <h1 class="about-us_heading">2014</h1>
+                        <p class="about-us_description">
+                            Lorem ipsum dolor sit amet, consectetur adipiselit. 
+                            Vivamus varius nec diam vitae hendrerit bigus mit.
+                            Begitus vit urna nulla.
+                        </p>
+                    </div>
+                </div>
+                <!-- ABOUT US Container -->
+            </div>
+        </div> <!-- /.row /ABOUT US -->
+
+        <!-- TEAM -->
+        <div id="team" class="row">
+
+            <div class="col-md-12 heading-container">
+                <h1 class="heading" id="team-heading">This is our team</h1>
+                <p class="italic-description">We are small but effective and ...</p>
+            </div>
+
+            <div class="col-md-8 mx-auto">
+                <!-- TEAM Container-->
+                <div id="team-container" class="row d-flex h-300">
+                    <div class="col-md-4 align-self-end">
+                        <ul id="team-list" class="list-unstyled">
+                            <li class="list_image">
+                                <img src="images/man_1.png" alt="">
+                            </li>
+                            <li class="team-list_fullname">
+                                Mark Once
+                            </li>
+                            <li class="team-list_job">
+                                Designer & Front-End Developer
+                            </li>
+                            <li class="team-list_socials">
+                                <a href="#">
+                                    <img src="images/twitter.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/instagram.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 align-self-start">
+                        <ul id="team-list" class="list-unstyled">
+                            <li class="list_image">
+                                <img src="images/man_2.png" alt="">
+                            </li>
+                            <li class="team-list_fullname">
+                                Justin Twice
+                            </li>
+                            <li class="team-list_job">
+                                Founder & CEO
+                            </li>
+                            <li class="team-list_socials">
+                                <a href="#">
+                                    <img src="images/twitter.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/instagram.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 align-self-end">
+                        <ul id="team-list" class="list-unstyled">
+                            <li class="list_image">
+                                <img src="images/man_3.png" alt="">
+                            </li>
+                            <li class="team-list_fullname">
+                                Antonio Never
+                            </li>
+                            <li class="team-list_job">
+                                Someone & Somewhere
+                            </li>
+                            <li class="team-list_socials">
+                                <a href="#">
+                                    <img src="images/twitter.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/instagram.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /.row /TEAM-->
+
+
+        <!-- TRIANGLE -->
+        <div class="row left-triangle-container">
+            <div class="col-md-12 left-triangle"></div>
+        </div>
+
+        <!-- SERVICES -->
+         <div id="services" class="row">
+
+            <div class="col-md-12 heading-container">
+                <h1 class="heading" id="services-heading">We provide you everything</h1>
+                <p class="italic-description">Maybe not everything, but we provide you some stuff.</p>
+            </div>
+
+            <!-- SERVICES Container -->
+            <div id="services-container" class="col-md-8 mx-auto">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul id="services-list" class="list-unstyled">
+                            <li class="list_image">
+                                <img src="images/service_1.png" alt="">
+                            </li>
+                            <li class="services-list_title">
+                                Some Analytics
+                            </li>
+                            <li class="services-list_description">
+                                Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul id="services-list" class="list-unstyled">
+                            <li class="list_image">
+                                <img src="images/service_2.png" alt="">
+                            </li>
+                            <li class="services-list_title">
+                                We provide you love
+                            </li>
+                            <li class="services-list_description">
+                                Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul id="services-list" class="list-unstyled">
+                            <li class="list_image">
+                                <img src="images/service_3.png" alt="">
+                            </li>
+                            <li class="services-list_title">
+                                And Some Cloud
+                            </li>
+                            <li class="services-list_description">
+                                Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- /SERVICES Container -->
+        </div> <!-- /SERVICES -->
+
+        <!-- BLOG -->
+        <div id="blog" class="row right-triangle-container">
+
+            <!-- BLOG Container -->
+            <div id="blog-container" class="col-md-6 mx-auto text-center">
+                <!-- Visit Our Blog Button -->
+                <button class="white-button">Visit Our Blog</button>
+            </div> <!-- /BLOG Container -->
+            
+            <!-- TRIANGLE 2 -->
+            <div class="col-md-12 right-triangle"></div>
+
+        </div> <!-- /BLOG -->
+
+        <!-- CONTACT US -->
+        <div id="contact-us" class="row">
+
+            <div class="col-md-12 heading-container">
+                <h1 class="heading" id="contact-us_-heading">Contac Us</h1>
+                <p class="italic-description">We know what we need to do</p>
+            </div>
+
+            <!-- CONTACT US Container -->
+            <div id="contact-us_container" class="col-md-6 mx-auto">
+                <div class="row">
+                    <div class="col-md-4">
+                        <!-- Contact List -->
+                        <ul id="contact-list" class="list-unstyled">
+                            <li class="contact-list_image">
+                                <img src="images/phone.png" alt="Phone">
+                            </li>
+                            <li class="contact-list_title">
+                                555-222-333
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul id="contact-list" class="list-unstyled">
+                            <li class="contact-list_image">
+                                <img src="images/marker.png" alt="Location">
+                            </li>
+                            <li class="contact-list_title">
+                                Here is some address
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul id="contact-list" class="list-unstyled">
+                            <li class="contact-list_image">
+                                <img src="images/mail.png" alt="Mail">
+                            </li>
+                            <li class="contact-list_title">
+                                somemail@hotmail.com
+                            </li>
+                        </ul> <!-- /Contact List -->
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div id="contact-form_container" class="col-md-12 mx-auto">
+                        <form id="contact-form" action="#" method="">
+                            <!-- Full name -->
+                            <input id="fullname" type="text" class="form-input" placeholder="Full Name">
+                            <!-- E-mail -->
+                            <input id="email" type="email" class="form-input" placeholder="E-mail">
+                            <!-- Phone Number -->
+                            <input id="tel" type="phone" class="form-input" placeholder="Phone">
+                            <!-- Message -->
+                            <textarea id="message" class="form-input" placeholder="Write your Message here..."></textarea>
+
+                            <!-- Submit Button -->
+                            <button id="submit-contact-form" class="black-button" type="submit">Send</button>
+                        </form>
+                    </div> <!-- /Contact Form -->
+
+                </div> <!-- /.row -->
+
+            </div> <!-- /CONTACT US Container -->
+        </div> <!-- /CONTACT US -->
+
+        <!-- COPYRIGHT -->
+        <div id="footer" class="row">
+            <div id="copyright-container" class="col-md-12">
+                <p id="copyright">Copyright &copy; Title. All rights reserved</p>
+            </div>
+        </div> <!-- /COPYRIGHT -->
+
+    </div> <!-- /.container-fluid -->
+
+
+    <!-- Slider Options JS -->
+    <script>
+        // Initializes slider with an optional options object and starts cycling through items.
+        $('.carousel').carousel({
+            interval: 3000
+        })
+    </script>
+</body>
+</html>

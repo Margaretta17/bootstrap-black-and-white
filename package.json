@@ -1,0 +1,16 @@
+{
+  "name": "BlackAndWhite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://Margaretta17.github.io/black-and-white",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
